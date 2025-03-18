@@ -28,10 +28,10 @@ load_dotenv("config.env")
 
 # The Telegram API things
 # Get these values from my.telegram.org or Telegram: @useTGxBot
-API_HASH = get_config("API_HASH", should_prompt=True)
-APP_ID = int(get_config("APP_ID", should_prompt=True))
+API_HASH = "978a4c44210cd6c4eb2db63674d1b98c")
+APP_ID = 1648885
 # get a token from @BotFather
-TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", should_prompt=True)
+TG_BOT_TOKEN = "7671474280:AAG2IKrtL1fscplDm5bdruRcUapWKADzBow"
 # string session for running as user
 TG_USER_SESSION = get_config("TG_USER_SESSION", should_prompt=True)
 TG_BOT_SESSION = get_config("TG_BOT_SESSION", "bot")
